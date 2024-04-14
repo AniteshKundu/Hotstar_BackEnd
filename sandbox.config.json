@@ -1,0 +1,17 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "Configuration for my project sandbox",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.13"
+    },
+    "scripts": {
+      "start": "node app.js"
+    },
+    "sandbox": {
+      "environment": "development",
+      "port": 3000
+    }
+  }
+  
